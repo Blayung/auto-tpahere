@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Auto tpahere",
-  "description": "You can easliy make a /tpahere to all the players on the server!",
+  "description": "You can easliy send a /tpahere command to all the players on the server!",
   "authors": [
     "Blay"
   ],
