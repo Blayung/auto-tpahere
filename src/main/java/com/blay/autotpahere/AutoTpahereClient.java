@@ -7,11 +7,12 @@ import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
 import net.minecraft.text.Text;
-import org.lwjgl.glfw.GLFW;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.ClientPlayNetworkHandler;
 import net.minecraft.client.network.PlayerListEntry;
 import net.minecraft.client.network.ClientPlayerEntity;
+
+import org.lwjgl.glfw.GLFW;
 
 import java.util.Collection;
 import java.util.List;
@@ -37,7 +38,7 @@ public class AutoTpahereClient implements ClientModInitializer {
         public void run() {
             for(int i=0;i<count;i++){
                 clientPlayer.sendMessage(Text.literal("Trying /tpahere "+names.get(i)+"..."));
-                clientPlayer.sendCommand("tpahere "+names.get(i),null);
+                clientPlayer.networkHandler.sendChatCommand("tpahere "+names.get(i));
                 try{
                     TimeUnit.MILLISECONDS.sleep(1100);
                 }catch(InterruptedException e){
