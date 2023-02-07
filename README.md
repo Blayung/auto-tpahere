@@ -3,6 +3,7 @@
 
 ## What is this mod?
 This minecraft fabric mod allows you to send /tpahere command to all the players on the server with just one press of a key!  
+  
 **This mod currently supports only 1.19.3 (or potentially newer) versions of minecraft. To get support for older versions, try to use the older [releases](https://github.com/Blayung/auto-tpahere/releases).**
 
 ## How to compile this mod?
