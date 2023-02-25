@@ -1,3 +1,4 @@
+# I have decided to stop supporting this mod since I have lost interest in it's functionality, and I think that not a lot of people will ever find it useful. Feel free to open pull requests, I will still replay to/accept them.
 <img src="https://i.imgur.com/Ol1Tcf8.png" width="159" height="53"></img>
 # Auto Tpahere Mod
 
