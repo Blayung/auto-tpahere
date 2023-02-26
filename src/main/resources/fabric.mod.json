@@ -8,9 +8,13 @@
   "authors": [
     "Blay"
   ],
-
-  "license": "GPL-3.0-only",
+  "contact":{
+    "email":"gpewojan1@gmail.com",
+    "issues":"https://github.com/Blayung/auto-tpahere/issues",
+    "sources":"https://github.com/Blayung/auto-tpahere"
+  },
   "icon": "assets/auto-tpahere/icon.png",
+  "license": "GPL-3.0-only",
 
   "environment": "*",
   "entrypoints": {
@@ -21,12 +25,12 @@
       "com.blay.autotpahere.AutoTpahereClient"
     ]
   },
+  "mixins":[],
 
   "depends": {
     "fabricloader": "*",
     "fabric": "*",
     "minecraft": ">=1.19.3",
     "java": ">=17"
-  },
-  "suggests": {}
+  }
 }
