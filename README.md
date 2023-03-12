@@ -1,4 +1,4 @@
-# I have decided to stop supporting this mod since I have lost interest in it's functionality, and I think that not a lot of people will ever find it useful. Feel free to open pull requests, I will still reply to/accept them.
+# I have decided to stop supporting this mod since I have lost interest in it's functionality, and I think that not a lot of people will ever find it useful. Feel free to make a fork of this mod and continue it's development.
 ![sad-monke](https://media.tenor.com/uFxiuS-FzzEAAAAd/monkey-macaco.gif)<br><br>
 [![fabric-api](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/requires/fabric-api_vector.svg)](https://modrinth.com/mod/fabric-api)
 # Auto Tpahere Mod
